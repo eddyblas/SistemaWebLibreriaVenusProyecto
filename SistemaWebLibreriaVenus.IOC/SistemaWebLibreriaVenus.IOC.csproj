@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaWebLibreriaVenus.BLL\SistemaWebLibreriaVenus.BLL.csproj" />
+    <ProjectReference Include="..\SistemaWebLibreriaVenus.DAL\SistemaWebLibreriaVenus.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
